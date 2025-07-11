@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homee"
+            android:icon="@drawable/howm_icon"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/logs"
+            android:icon="@drawable/logs_icon"
+            android:title="Logs"/>
+
+        <item
+            android:id="@+id/credits"
+            android:icon="@drawable/credits_icon"
+            android:title="Credits"/>
+
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/info_icon"
+            android:title="Info"/>
+
+        <item
+            android:title="____________________"
+            android:enabled="false"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Log-out"/>
+    </group>
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="170dp"
+    android:background="#272c33"
+    android:gravity="bottom">
+
+    <ImageView
+        android:layout_width="186dp"
+        android:layout_height="115dp"
+        android:src="@drawable/cci_logo"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginRight="-50dp"/>
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="100dp"
+       android:background="@drawable/pc_text"
+       android:layout_marginBottom="40dp"
+       android:layout_marginLeft="-5dp"/>
+
+
+</LinearLayout>
